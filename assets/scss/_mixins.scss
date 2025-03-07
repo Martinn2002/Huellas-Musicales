@@ -1,0 +1,12 @@
+@mixin boton{
+    width: auto;
+    padding: 32px 24px;
+    background-color: $boton;
+    color: $letra-blanca;
+    font-family: $parrafos;
+    font-size: 16px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    text-decoration: none;  
+    border: none; 
+}

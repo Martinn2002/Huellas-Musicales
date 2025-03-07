@@ -1,0 +1,56 @@
+.banner-principal{
+    height: 1026px;
+    img{
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+.columna-discos{
+    align-content: center;
+}
+
+.background-banner{
+    background-image: url(../img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.scrollspy-example {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 943px;
+    max-height: 100%;
+    scrollbar-width: none; /* Para Firefox */
+    -ms-overflow-style: none; /* Para Edge y IE */
+}
+
+// esto no se puede hacer sin java //
+
+.scrollspy-example {
+    height: 943px;
+    overflow: hidden;
+    position: relative;
+}
+
+.scroll-content {
+    display: flex;
+    flex-direction: column;
+    animation: scrollLoop 40s linear infinite;
+}
+
+@keyframes scrollLoop {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-50%); } /* Mueve la mitad, porque duplicamos el contenido */
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+// esto no se puede hacer sin java //
