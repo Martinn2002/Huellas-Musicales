@@ -1,3 +1,17 @@
+body{
+    h1{
+        width: inherit;
+    }
+    h1, h2{
+        font-family: $titulos;
+    }
+
+    h3, h4, h5, h6, p{
+        font-family: $parrafos
+    }
+   
+}
+
 .banner-principal{
     height: 1026px;
     img{
@@ -24,6 +38,21 @@
     max-height: 100%;
     scrollbar-width: none; /* Para Firefox */
     -ms-overflow-style: none; /* Para Edge y IE */
+}
+
+.texto-banner{
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px !important;
+    gap: 65px;
+    svg{
+        height: 50px;
+        width: 50px;
+        margin-right: 20px;
+    }
+    button{
+        @include boton
+    }
 }
 
 // esto no se puede hacer sin java //

@@ -11981,6 +11981,16 @@ h6, .h6 {
   color: white;
 }
 
+body h1, body .h1 {
+  width: inherit;
+}
+body h1, body .h1, body h2, body .h2 {
+  font-family: "Trochut", sans-serif;
+}
+body h3, body .h3, body h4, body .h4, body h5, body .h5, body h6, body .h6, body p {
+  font-family: "Nunito Sans", sans-serif;
+}
+
 .banner-principal {
   height: 1026px;
 }
@@ -12008,6 +12018,30 @@ h6, .h6 {
   max-height: 100%;
   scrollbar-width: none; /* Para Firefox */
   -ms-overflow-style: none; /* Para Edge y IE */
+}
+
+.texto-banner {
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px !important;
+  gap: 65px;
+}
+.texto-banner svg {
+  height: 50px;
+  width: 50px;
+  margin-right: 20px;
+}
+.texto-banner button {
+  width: 401px;
+  padding: 32px 16px;
+  background-color: #A8845A;
+  color: #fff;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 24px;
+  text-transform: uppercase;
+  border-radius: 10px;
+  text-decoration: none;
+  border: none;
 }
 
 .scrollspy-example {
